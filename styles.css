@@ -1,0 +1,316 @@
+*{
+    margin : 0px;
+    padding : 0px;
+    font-family: PayPalSansSmall-Regular,Helvetica Neue,Arial,sans-serif;
+}
+nav{
+    display : flex;
+    align-items : center;
+    justify-content: space-between;
+    width : 80%;
+    margin : 10px auto;
+    font-weight: 400;
+    font-size : 20px;
+}
+.left-container,.right-container{
+    display : flex;
+    align-items : center;
+    justify-content: space-around;
+    
+}
+.left-container{
+    width : 60%;
+}
+.right-container{
+    width : 20%;
+}
+.personal:hover,.business:hover{
+    border-bottom: 3px solid rgb(39, 38, 38);
+}
+.left-container p{
+    margin: 0px 30px;
+}
+.right-container button{
+    padding : 10px 20px;
+    margin-right : 20px;
+    border-radius: 25px;
+}
+.paypal-img{
+    width:50px;
+    height:50px;
+}
+main{
+    background : #142c8e url(https://www.paypalobjects.com/marketing/web/shared/qrc-sms/background-swirls.png);
+    height: 750px;
+}
+.main-block,.scan-block{
+    width : 80%;margin:0px auto;
+}
+.scan{
+    color:white;
+    padding : 20px 0px;
+    font-size: 20px;
+    font-weight:600
+}
+.scanner{
+    position : relative;
+    display : grid;
+    grid-template-columns: 25% 25% 25% 25%;
+
+}
+.message{
+    color:white;
+    font-weight:600;
+    font-size: small;
+    line-height: 20px;
+}
+.fa-long-arrow-alt-right{
+    display: inline-block;
+    margin-left: 5px;
+    padding-right : 10px;
+    color: #0070ba;
+    background-color: rgb(1, 4, 108);
+    border-radius:50%;
+    font-size: 20px;
+    transition : padding-left 0.5s;
+}
+.link .fa-long-arrow-alt-right{
+    background-color: #fff;
+    color:#2128a6;
+}
+.fa-long-arrow-alt-right:hover{
+    padding-left:20px;
+}
+.login{
+    background-color: #fff;
+    color:rgb(3, 3, 131);
+    border:2px solid #0070ba;
+}
+.signup{
+    background-color: #003087;
+    color:white;
+    border:none;
+}
+.signup:hover{
+    background-color: rgb(44, 61, 239);
+}
+.scanner-image::after{
+    display: block;
+    content : ' ';
+    width: 1px;
+    height : 150px;
+    background-color: rgb(168, 166, 166);
+    position: absolute;
+    top : 0px;
+    left :210px;
+}
+.main-block a{
+    font-size : 25px;
+    color: #56CCFE;
+
+}
+.heading{
+    letter-spacing:1px;
+    color:white;
+    font-size: 90px;font-weight: 500;
+    padding-top : 100px;
+}
+.learning{
+    margin :20px 0px;
+    
+}
+.learning a{
+    text-decoration: none;
+}
+.learning a:hover,.link a:hover{
+    text-decoration: underline;
+}
+.number input{
+    padding : 15px 20px;
+    border-radius: 5px;
+    border:none;
+}
+.number input:focus{
+    outline :2px solid #56CCFE;
+}
+.phone-block button{
+    padding: 20px 30px;
+    border:none;
+    margin:10px 0px;
+    border-radius: 25px;
+    
+    background-color: #F9B822;
+}
+.phone-block button a{
+    text-decoration : none;
+    font-size : 15px;
+    color:black;
+}
+.phone-block button a:active{
+    text-decoration: underline;
+}
+.main-image{
+    position : absolute;
+    top : 350px;
+    right : 200px;
+    width:500px;
+    
+}
+.connect{
+    width:50%;
+    margin:20px auto;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    font-weight:600;
+    color: rgb(26, 26, 26);
+}
+.connect .link{
+ margin-left: 20px;
+}
+.block1 .image1 img,.block2 .image2 img{
+    width : 550px;
+    height: 500px;
+}
+.block3 .image3 img{
+    width : 550px;
+    height: 400px;
+}
+.block4 .image4 img{
+    width : 500px;
+    height: 550px;
+}
+.block5 .image5 img{
+    width : 500px;
+    height: 350px;
+}
+.block1,.block2,.block3,.block4,.block5 {
+    display:grid;
+    grid-template-columns: 50% 50%;
+    width : 70%;
+    margin : 100px auto;
+}
+.block3,.block5{
+    width : 80%;
+}
+.section1 h1,.section2 h1,.section3 h1,.section4 h1,.section5 h1{
+    margin-top:70px;
+    width:70%;letter-spacing: 0px;opacity: 0.8;line-height: 40px
+}
+.section1 p,.section2 p,.section3 p,.section4 p,.section5 p{
+    width:70%;font-size: 20px;line-height: 30px;opacity: 0.8;margin:20px 0px;
+}
+.section2 .crypto{
+    font-size: 15px;;
+}
+.link a{
+    font-size:20px;text-decoration:none;
+}
+.brands{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width : 100%;
+    margin : auto;
+    margin-bottom: 50px;
+}
+.brands h1{width:90%}
+.brands h1{
+    font-size : 40px;
+}
+.brand-check{
+    width : 20%
+}
+.brand-group{
+    width:40%;
+}
+.brand-group{
+    display : grid;
+    grid-template-columns: 33% 33% 33%;
+    column-gap: 30px;
+}
+.brand-group img{
+    display : block;
+}
+.join{
+    background-color: #121661;
+    text-align:center;
+
+}
+.join p{
+    width : 40%;
+    margin: auto;
+    color:white;
+    padding-top: 100px;
+    margin-bottom: 40px;
+    font-size: 35px;
+}
+.join button{
+    width : 300px;
+    padding: 10px;
+    margin-bottom: 40px;
+    text-align:center;
+    border-radius:25px;
+    border:none;
+    font-size: 15px;
+    color:#2128a6;
+    font-weight:bold
+}
+.information,.address{
+    width: 70%;
+    margin: 50px auto;
+    margin-bottom: 0px;
+    color:rgb(92, 91, 91);
+}
+.address{
+    margin-top : 40px;
+    margin-bottom:100px;
+}
+.contacts{
+    margin-top:30px;
+    position:relative;
+    display:flex;
+    width:70%;
+    margin: auto;
+}
+.contacts img{
+    width:30px;
+    height:30px;
+    position : absolute;
+    object-fit: contain;
+    top:-10px;
+    right:50px;
+}
+.contacts a,.contacts2 a,.aside a{
+    text-decoration : none;
+    color:rgb(25, 25, 25);
+    font-weight: 700;
+    font-size:12px;
+    margin-right: 20px;
+}
+.contacts a:hover,.contacts2 a:hover,.aside a:hover{
+    text-decoration: underline;
+}
+.footer{
+    margin:auto;
+    margin-top: 15px;;
+    margin-bottom: 10px;
+    width : 70%;
+}
+.container a{
+    color:#5c5c5d;
+    font-size:12px;
+}
+.container{
+    padding-bottom : 100px;
+    display:flex;
+    width:70%;
+    margin:auto;
+    justify-content:space-between;
+}
+@media only screen and (max-width: 900px) {
+    .block1,.block2,.block3,.block4,.block5{
+        display: flex;
+        flex-direction: column;
+    }
+}
